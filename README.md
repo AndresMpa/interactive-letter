@@ -1,2 +1,2 @@
-# interactive-letter
+# Interactive letter
 A simple interactive letter
