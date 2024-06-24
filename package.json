@@ -1,0 +1,11 @@
+{
+  "name": "interactive-letter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "AndresMpa",
+  "license": "GNUv3"
+}
