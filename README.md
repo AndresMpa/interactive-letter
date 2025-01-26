@@ -1,28 +1,50 @@
-# sv
+<div align="center">
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# Interactive letter
 
-## Creating a project
+![Preview collection for images for people to check on this before the just click on the new tab shortcut](./doc/assets/preview.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+</div>
+
+Looking for a 0 config for small stupid gift for your \<INSERT HERE HUMAN RELATIONSHIP /\>? Try Interactive Letter the no-completely-driven-by-loveliness easies way to make a stupid gift for your \<INSERT HERE HUMAN RELATIONSHIP /\> project!
+
+### Build with 
+
+<div align=center>
+
+<p>
+
+![Sarcastic love](https://img.shields.io/badge/-Sarcastic_love-black?style=for-the-badge&logo=undertale)
+![Svelte](https://img.shields.io/badge/-Svelte-black?style=for-the-badge&logo=Svelte)
+![Storybook](https://img.shields.io/badge/-Storybook-black?style=for-the-badge&logo=Storybook)
+![Tailwindcss](https://img.shields.io/badge/-Tailwindcss-black?style=for-the-badge&logo=Tailwindcss)
+![Chromatic](https://img.shields.io/badge/-Chromatic-black?style=for-the-badge&logo=Chromatic)
+![Prettier](https://img.shields.io/badge/-Prettier-black?style=for-the-badge&logo=Prettier)
+![.env](https://img.shields.io/badge/-DotEnv-black?style=for-the-badge&logo=dotenv)
+
+</p>
+
+> For a serious technical documentation check the [./doc folder](./doc)
+
+</div>
+
+## Description
+
+Build on Svelte to avoid as much as possible thinking due to its foolproof syntax, this repo host a simple letter for devs to make gifts, it runs under [`sv`](https://github.com/sveltejs/cli) but its construction doesn't matter to you!. To deploy yours, simply download or fork this repo, replace its setting on the content.json file and that's it, thanks to Svelte adapter the next step is to deploy it on your favorite (Obviously Netlify) cloud SaaS
+
+## Developing (If you're a crazy parrot looking for malware)
+
+Try `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# To install(?) dependencies at package.json
+pnpm i
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
+# To start the development server
+pnpm run dev
 
 # or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm run dev -- --open
 ```
 
 ## Building
@@ -30,9 +52,9 @@ npm run dev -- --open
 To create a production version of your app:
 
 ```bash
-npm run build
+# To check what ever you wanted to change
+pnpm run preview
+
+# If you finished checking on this source code for some reason you wanted to check(?)
+pnpm run build
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
