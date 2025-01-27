@@ -1,14 +1,33 @@
-import type { Preview } from '@storybook/svelte'
+import { withThemeByDataAttribute } from '@storybook/addon-themes';
+import type { Preview } from '@storybook/svelte';
+import '../src/app.css';
 
 const preview: Preview = {
-  parameters: {
-    controls: {
-      matchers: {
-       color: /(background|color)$/i,
-       date: /Date$/i,
-      },
-    },
-  },
+	parameters: {
+		controls: {
+			matchers: {
+				color: /(background|color)$/i,
+				date: /Date$/i
+			}
+		}
+	},
+	globals: {
+		a11y: {
+			// Optional flag to prevent the automatic check
+			manual: true
+		}
+	}
 };
+
+export const decorators = [
+	withThemeByDataAttribute({
+		themes: {
+			light: 'light',
+			dark: 'dark'
+		},
+		defaultTheme: 'light',
+		attributeName: 'data-mode'
+	})
+];
 
 export default preview;
