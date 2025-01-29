@@ -8,7 +8,7 @@ const mdsvexConfig = {
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', '.html', '.svx', ...mdsvexConfig.extensions],
+	extensions: ['.svelte', '.html', ...mdsvexConfig.extensions],
 
 	// Consult https://svelte.dev/docs/kit/integrations
 	// for more information about preprocessors
@@ -19,10 +19,6 @@ const config = {
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter(),
-		alias: {
-			$components: './src/components',
-			$stories: './src/stories'
-		}
 	}
 };
 
