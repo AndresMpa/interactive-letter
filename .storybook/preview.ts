@@ -1,5 +1,6 @@
 import { withThemeByDataAttribute } from '@storybook/addon-themes';
 import type { Preview } from '@storybook/svelte';
+import theme from './theme';
 import '../src/app.css';
 
 const preview: Preview = {
@@ -9,6 +10,9 @@ const preview: Preview = {
 				color: /(background|color)$/i,
 				date: /Date$/i
 			}
+		},
+		docs: {
+			theme: theme
 		}
 	},
 	globals: {
