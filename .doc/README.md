@@ -15,6 +15,10 @@ This projects aims to be a simple web for couples or anything like that, for mak
 
 ## Useful doc
 
+#### Storybook not working
+
+Just follow this: [https://github.com/storybookjs/storybook/issues/14688#issuecomment-2160929822](https://github.com/storybookjs/storybook/issues/14688#issuecomment-2160929822)
+
 #### Tailwind on Storybook
 
 To have the theme switching on Storybook for TailwindCSS there's an entry about [Storybook without TS for minimum config](https://storybook.js.org/recipes/tailwindcss#2-provide-tailwind-to-stories) there's also [an entry on its repo](https://github.com/storybookjs/storybook/blob/main/code/addons/themes/docs/api.md) about it it's useful for other tool such as Vuetify among others, in short what you need to do to make TailwindCSS works it's simply add the main file for TailwindCSS imports inside a file called preview:
