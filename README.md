@@ -24,7 +24,7 @@ Looking for a 0 config for small stupid gift for your \<INSERT HERE HUMAN RELATI
 
 </p>
 
-> For a serious technical documentation check the [./doc folder](./doc)
+> For a serious technical documentation check the [./doc folder](https://github.com/AndresMpa/interactive-letter/tree/main/.doc)
 
 </div>
 
