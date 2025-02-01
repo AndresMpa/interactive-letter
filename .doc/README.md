@@ -102,6 +102,10 @@ Some text in markdown
 
 The `App.svelte` file will render the content inside `file.svx`
 
+#### Storybook + Docker
+
+The Dockerfile was build based on this [article](https://medium.com/@sjoshiftb/supercharged-component-library-docker-and-storybook-06d2e95ece60) with some references from [pnpm doc](https://pnpm.io/docker)
+
 ## Extra tools I'm not using
 
 - https://storybook.js.org/addons/@nx/storybook
