@@ -13,6 +13,15 @@ This projects aims to be a simple web for couples or anything like that, for mak
 - Visual communication between dev and design [Storybook](https://storybook.js.org/)
 - Adapter for deployment process: [Netlify](https://svelte.dev/docs/kit/adapter-netlify)
 
+## Commands
+
+| Command                                 | Action                                                                                        |
+| --------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `pnpm <COMMAND>`                        | It runs any command from package.json on your local machine                                   |
+| `docker compose up`                     | Equivalent to `pnpm run dev`, inside docker container. Use `-d` to demonize the process       |
+| `docker compose down`                   | To stop process inside docker, in other words to take down the container                      |
+| `docker compose run --rm app <COMMAND>` | Executes any COMMAND from package.json without UIs (You have to open the UI after running it) |
+
 ## Useful doc
 
 #### Storybook not working

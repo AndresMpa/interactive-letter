@@ -1,10 +1,11 @@
 services:
   storybook:
-    build: 
+    build:
       context: ./
+      dockerfile: ./docker/storybook/Dockerfile
       args:
-        GIT_USER_NAME: "${GIT_USER_NAME}"
-        GIT_USER_EMAIL: "${GIT_USER_EMAIL}"
+        GIT_USER_NAME: '${GIT_USER_NAME}'
+        GIT_USER_EMAIL: '${GIT_USER_EMAIL}'
     env_file:
       - .env
     container_name: storybook
@@ -12,7 +13,7 @@ services:
       - .:/usr/src/app
       - /usr/src/app/node_modules
     ports:
-     - 6006:6006
+      - 6006:6006
     environment:
       NODE_ENV: development
-    command: ["npm", "run", "storybook"]
+    command: ['pnpm', 'storybook']
