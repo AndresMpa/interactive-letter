@@ -1,7 +1,7 @@
 <script lang="ts">
 	interface Props {
 		/** The side of the card */
-		side?: 'left' | 'right' | 'center';
+		side?: 'left' | 'right' | 'center' | 'none';
 		/** Extra classes to add to the card */
 		classExtra?: string;
 		/** The title of the card */
@@ -15,12 +15,13 @@
 	const sideMap = $state({
 		left: 'text-left',
 		right: 'text-right',
-		center: 'text-center'
+		center: 'text-center',
+		none: ''
 	});
 
 	const { side = 'center', classExtra, title, text, children }: Props = $props();
 
-	let computedSide = side ? sideMap[side] : sideMap.center;
+	let computedSide = side ? sideMap[side] : sideMap.none;
 </script>
 
 <section class={`${classExtra}`}>

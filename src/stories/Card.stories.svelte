@@ -15,7 +15,7 @@
 			text: { control: 'text' },
 			side: {
 				control: { type: 'select' },
-				options: ['left', 'right', 'center']
+				options: ['left', 'right', 'center', 'none']
 			},
 			children: { control: 'text' }
 		},
