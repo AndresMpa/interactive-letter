@@ -41,6 +41,7 @@
     "@storybook/test": "^8.5.2",
     "@storybook/theming": "^8.5.2",
     "@sveltejs/adapter-auto": "^4.0.0",
+    "@sveltejs/adapter-netlify": "^4.4.1",
     "@sveltejs/kit": "^2.16.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tailwindcss/typography": "^0.5.16",
