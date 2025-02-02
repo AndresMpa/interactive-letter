@@ -14,7 +14,7 @@
 
 <div class="relative mx-auto w-9/12">
 	<Card classExtra="bg-red-200 rounded-b-lg pt-14">
-		<div class="text-center">
+		<div>
 			<h1 class="mb-6 mt-1 text-2xl">
 				<TitleSvx></TitleSvx>
 			</h1>
