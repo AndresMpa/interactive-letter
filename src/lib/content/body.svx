@@ -1,1 +1,20 @@
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, praesentium molestiae porro commodi sit ipsam corporis fugit ullam voluptatem accusamus veniam maxime perspiciatis, sequi sunt? Architecto impedit nisi harum pariatur?
+---
+name: "John Doe"
+---
+
+# My Love (Template by ChatGPT, obviously, I don't have a love life 😅)
+
+From the moment you walked into my life, everything changed. The way you smile, the way you laugh, the way your eyes light up when you're excited—every little thing about you has become a part of my happiest moments.
+
+<blockquote>
+  You are my safe place, my greatest adventure, and my favorite person in this world. With you, everything feels right. Your kindness, your strength, and the way you love me make me want to be the best version of myself.
+</blockquote>
+
+I love you more than words can express, and I promise to keep showing you, every single day, just how much you mean to me. No matter what life brings our way, I want you to know that I’ll always be by your side, loving you endlessly.
+
+---
+
+**Forever yours,**  
+*{name}*
+
+<small>PS: I love you to the moon and back! 🌙❤️</small>

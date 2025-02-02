@@ -1,1 +1,6 @@
-This an example
+---
+name: "Jane Doe"
+date: "February 2, 2025"
+---
+
+For **{name}** - **{date}**
