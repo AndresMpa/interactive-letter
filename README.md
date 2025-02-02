@@ -8,7 +8,7 @@
 
 Looking for a 0 config for small stupid gift for your \<INSERT HERE HUMAN RELATIONSHIP /\>? Try Interactive Letter the no-completely-driven-by-loveliness easies way to make a stupid gift for your \<INSERT HERE HUMAN RELATIONSHIP /\> project!
 
-### Build with 
+### Build with
 
 <div align=center>
 
@@ -30,7 +30,9 @@ Looking for a 0 config for small stupid gift for your \<INSERT HERE HUMAN RELATI
 
 ## Description
 
-Build on Svelte to avoid as much as possible thinking due to its foolproof syntax, this repo host a simple letter for devs to make gifts, it runs under [`sv`](https://github.com/sveltejs/cli) but its construction doesn't matter to you!. To deploy yours, simply download or fork this repo, replace its setting on the content.json file and that's it, thanks to Svelte adapter the next step is to deploy it on your favorite (Obviously Netlify) cloud SaaS
+Build on Svelte to avoid as much as possible thinking due to its foolproof syntax, this repo host a simple letter for devs to make gifts, it runs under [`sv`](https://github.com/sveltejs/cli) but its construction doesn't matter to you!. To deploy yours, simply download or fork this repo, replace its setting on the [body.mdx](./src/lib/content/body.svx) and [title.mdx](./src//lib/content/title.svx) files and that's it (You might want to check this [link](https://mdxjs.com/docs/)), thanks to Svelte adapter the next step is to deploy it on your favorite (Obviously Netlify) cloud SaaS
+
+> NOTE: Images for [background](./src/lib/assets/background.webp) and [profile's avatar](./src//lib/assets/avatar.webp) were optimized with [squoosh](https://squoosh.app/) if your images are not `.webp` use it to change that extensions of your images, then replace those files
 
 ## Developing (If you're a crazy parrot looking for malware)
 
@@ -41,10 +43,10 @@ Try `npm install` (or `pnpm install` or `yarn`), start a development server:
 pnpm i
 
 # To start the development server
-pnpm run dev
+pnpm dev
 
 # or start the server and open the app in a new browser tab
-pnpm run dev -- --open
+pnpm dev -- --open
 ```
 
 ## Building
@@ -53,8 +55,8 @@ To create a production version of your app:
 
 ```bash
 # To check what ever you wanted to change
-pnpm run preview
+pnpm preview
 
 # If you finished checking on this source code for some reason you wanted to check(?)
-pnpm run build
+pnpm build
 ```

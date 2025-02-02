@@ -2,6 +2,12 @@
 
 This projects aims to be a simple web for couples or anything like that, for making gifts, the idea behind is to make a copy to be deployed on a Could SaaS such as Netlify, Vercel or any of the supported [adapter by Svelte](https://svelte.dev/docs/kit/adapters), this projects aims to be a zero-config love-card, that's why you should be able to config the most relevant content on the content.json file, the recommended options to check if your content was rendered as you wanted is to use the development server integrated here using the CLI as the main README.md says, this projects is kind of a joke with a serious architecture behind it, but it was though for devs without experience on deployments, people how really want to make a gift for their couples or someone who wants to make a cute gift without wasting a bunch of time building an entire page by him/herself.
 
+## How to customize this
+
+If you are not a developer, you just want to quickly edit; put your hand on the following files:
+
+
+
 ## Tech stack
 
 - Dev server: [Vite](https://vite.dev/)
@@ -128,3 +134,5 @@ The Dockerfile was build based on this [article](https://medium.com/@sjoshiftb/s
 - https://storybook.js.org/addons/@kickstartds/storybook-addon-jsonschema
 - https://storybook.js.org/addons/msw-storybook-addon-msw-v1-fork
 - https://storybook.js.org/addons/storybook-addon-breakpoints
+- https://hub.docker.com/r/netlify/build
+- https://www.netlify.com/blog/2016/10/18/how-our-build-bots-build-sites/
