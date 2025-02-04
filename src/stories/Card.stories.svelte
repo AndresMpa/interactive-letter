@@ -15,7 +15,7 @@
 			text: { control: 'text' },
 			side: {
 				control: { type: 'select' },
-				options: ['left', 'right', 'center', 'none']
+				options: ['left', 'right', 'center', undefined]
 			},
 			children: { control: 'text' }
 		},
@@ -77,7 +77,7 @@
 	}}
 	play={async ({ canvasElement }) => {
 		const canvas = within(canvasElement);
-		
+
 		const container = canvas.getByRole('div');
 		expect(container).toHaveClass('text-left');
 	}}

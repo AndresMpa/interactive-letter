@@ -1,7 +1,7 @@
 <script lang="ts">
 	interface Props {
 		/** The side of the card */
-		side?: 'left' | 'right' | 'center' | 'none';
+		side?: 'left' | 'right' | 'center';
 		/** Extra classes to add to the card */
 		classExtra?: string;
 		/** The title of the card */
@@ -16,16 +16,19 @@
 		left: 'text-left',
 		right: 'text-right',
 		center: 'text-center',
-		none: ''
+		undefined: ''
 	});
 
 	const { side = 'center', classExtra, title, text, children }: Props = $props();
 
-	let computedSide = side ? sideMap[side] : sideMap.none;
+	let computedSide = side ? sideMap[side] : sideMap.undefined;
 </script>
 
-<section class={`${classExtra}`}>
-	<div class={[`mx-auto rounded-lg p-6 shadow-lg`, `${computedSide}`].join(' ')}>
+<main class={`${classExtra ? classExtra : ''}`}>
+	<div
+		class={[`mx-auto rounded-lg p-6 shadow-lg`, `${computedSide ? computedSide : ''}`].join(' ')}
+		role="presentation"
+	>
 		{#if title}
 			<h1 class="mb-6 mt-1 text-2xl">
 				{title}
@@ -42,4 +45,4 @@
 			{@render children()}
 		{/if}
 	</div>
-</section>
+</main>
