@@ -29,7 +29,11 @@
 			alt={`${altText}`}
 			style:width={`${computedSize}px`}
 			style:height={`${computedSize}px`}
-			class={[`m-5 aspect-square rounded-full p-1 ${backgroundColor}`, `size-${computedSize}`].join(' ')}
+			class={[
+				'm-5 aspect-square rounded-full p-1',
+				`${backgroundColor ? backgroundColor : ''}`,
+				`size-${computedSize}`
+			].join(' ')}
 			onerror={() => (imageError = true)}
 		/>
 	</figure>
