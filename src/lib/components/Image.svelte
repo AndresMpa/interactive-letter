@@ -22,7 +22,7 @@
 </script>
 
 {#if !imageError}
-	<figure class={`aspect-${computedSize}`}>
+	<figure class={`${computedSize ? 'aspect-' + computedSize : ''} `}>
 		<img
 			src={`${src}`}
 			alt={`${altText}`}
