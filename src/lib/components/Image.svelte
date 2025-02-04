@@ -26,8 +26,10 @@
 		<img
 			src={`${src}`}
 			alt={`${altText}`}
-			class="h-64 w-full object-cover object-[25%_75%]"
-			style:background-color={backgroundColor}
+			class={[
+				'h-64 w-full object-cover object-[25%_75%]',
+				`${backgroundColor ? backgroundColor : ''}`
+			].join(' ')}
 			onerror={() => (imageError = true)}
 		/>
 	</figure>
