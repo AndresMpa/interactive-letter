@@ -2,7 +2,7 @@
 
 # Interactive letter
 
-![Preview collection for images for people to check on this before the just click on the new tab shortcut](./doc/assets/preview.png)
+![Preview collection for images for people to check on this before the just click on the new tab shortcut](https://raw.githubusercontent.com/AndresMpa/interactive-letter/refs/heads/main/.doc/assets/preview.png)
 
 </div>
 
